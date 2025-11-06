@@ -1,0 +1,672 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E9ECFF;
+    padding: 0px;
+    margin: 0px;
+    min-height: 80px;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    height: 40px;
+    margin-left: 20px;
+    top: 25%;
+}
+
+header nav ul {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+header nav ul li a:hover {
+    color: #4a58d1;
+}
+
+header nav button {
+    background-color: #808DFD;
+    color: #000000;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-weight: normal;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+}
+
+header nav button:hover {
+    background-color: #4a58d1;
+}
+
+header nav button a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px
+}
+
+section.hero div.header {
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-transform: uppercase;
+}
+
+section.hero div.header h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 7.2vw;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+section.hero div.header h1 span {
+    color: #808DFD;
+}
+
+section.hero {
+    position: relative;
+}
+
+img[src="hero-image.svg"] {
+    width: 68%;
+    min-height: auto;
+    position: absolute;
+    top: calc(7.2vw + 30px);
+    left: 0;
+    padding: 0;
+    margin: 0;    
+}
+
+section.hero div.committed {
+    background-color: #E9ECFF;
+    width: 32%;
+    height: 580px;
+    position: absolute;
+    right: 0;
+    top: calc(7.2vw + 30px);
+    padding: 0;
+    margin: 0;
+}
+
+section.hero div.committed h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    left: 10px;
+}
+
+section.hero div.committed p.one {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    position: absolute;
+    top: 320px;
+    margin: 0;
+    left: 10px;
+}
+
+section.hero div.committed p.two {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    position: absolute;
+    top: 470px;
+    margin: 0;
+    left: 40px;
+    text-transform: uppercase;
+}
+
+section.hero div.guided {
+    background-color: #E9ECFF;
+    width: 34%;
+    height: 580px;
+    position: absolute;
+    left: 0;
+    top: calc(7.2vw + 610px);
+}
+
+section.hero div.guided h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    left: 10px;
+}
+
+section.hero div.guided p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    position: absolute;
+    top: 320px;
+    margin: 0;
+    left: 10px;
+}
+
+section.hero div.dynamic {
+    background-color: #E9ECFF;
+    width: 34%;
+    height: 580px;
+    position: absolute;
+    left: 34%;
+    top: calc(7.2vw + 610px);
+}
+
+section.hero div.dynamic h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    left: 10px;
+}
+
+section.hero div.dynamic p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    position: absolute;
+    top: 310px;
+    margin: 0;
+    left: 10px;
+}
+
+img[src="chinases.svg"] {
+    width: 34%;
+    height: auto;
+    position: absolute;
+    top: calc(7.2vw + 610px);
+    left: 68%;
+    padding: 0;
+    margin: 0;    
+}
+
+section.join {
+    position: relative;
+    top: calc(7.2vw + 1050px);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: auto;
+}
+
+section.join div.join-header {
+    background-color: #FFFFFF;
+    width: 100%;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-transform: uppercase;
+    min-height: 100px;
+}
+
+section.join div.join-header h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 7.2vw;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+section.join div.join-header h1 span {
+    color: #808DFD;
+}
+
+img[src="community.svg"] {
+    width: 68%;
+    height: auto;
+    position: absolute;
+    top: calc(7.2vw + 40px);
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+section.join div.join-content {
+    background-color: #E9ECFF;
+    width: 32%;
+    height: 730px;
+    position: absolute;
+    left: 0;
+    top: calc(7.2vw + 40px);
+    padding: 0;
+    margin: 0;
+}
+
+section.join div.join-content p.discover {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    margin: 0;
+    left: 10px;
+}
+
+section.join div.join-content p.expert {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    position: absolute;
+    top: 240px;
+    margin: 0;
+    left: 10px;
+}
+section.join div.join-content p.expert span {
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+section.join div.join-content p.results {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    position: absolute;
+    top: 390px;
+    margin: 0;
+    left: 10px;
+}
+
+section.join div.join-content p.results span {
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+section.join div.join-content p.supportive {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    position: absolute;
+    top: 530px;
+    margin: 0;
+    left: 10px;
+}
+
+section.join div.join-content p.supportive span {
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+section.join div.join-content p.view {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0;
+    position: absolute;
+    top: 665px;
+    margin: 0;
+    left: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.join div.join-content p.discover, section.join div.join-content p.expert, section.join div.join-content p.results, section.join div.join-content p.supportive{
+  border-bottom: #000000 2px solid;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+section.footer-cta {
+    background-color: #808CFD;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: calc(7.2vw + 1740px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:30px
+}
+
+section.footer-cta h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    text-transform: uppercase;
+    order: 2;
+}
+
+section.footer-cta button {
+    background-color: #E9ECFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 4px;
+    border: none;
+    order: 3;
+}
+
+section.footer-cta button a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+section.footer-cta button:hover {
+    background-color: #C0C6FF;
+}
+
+section.footer-cta h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    text-transform: uppercase;
+    order: 1;
+}
+
+footer {
+  background-color: #E9ECFF;
+  top: calc(7.2vw + 1715px);
+  width: 100%;
+  height: 700px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+img[src="logo-footer.svg"] {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    padding: 0;
+    margin: 0;    
+}
+
+footer h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+footer div.contact {
+    position: absolute;
+    left: 10px;
+    top: 400px;
+}
+
+footer div.contact h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+footer div.contact p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2px 0;
+    padding: 0;
+}
+
+footer div.social {
+    position: absolute;
+    right: 10px;
+    top: 400px;
+}
+
+footer div.social h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+footer div.social li {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2px 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer div.openhours {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 400px;
+}
+
+footer div.openhours h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+footer div.openhours li {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+footer div.openhours {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 400px;
+}
+
+footer div.openhours h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+footer div.openhours li {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2px 0;
+    padding: 0;
+    list-style: none;
+}
